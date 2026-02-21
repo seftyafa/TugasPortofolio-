@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seftya F.A | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <h2 class="logo">SEFTYA</h2>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+        </ul>
+    </nav>
+
+<header>
+    <div class="hero">
+        <img src="images/profile.jpg" alt="Seftya Profile Photo" class="profile-pic fade-in">
+        <div class="hero-text fade-in">
+            <h1>Hi, I'm Seftya F.A</h1>
+            <p class="fade-in">I'm 16 years old and currently studying at SMKN 1 Nganjuk majoring in Game Development. I live at Kedungdowo Village, Nganjuk subdistrict, Nganjuk district, East Java. </p>
+        </div>
+    </div>
+</header>
+
+    <section id="about" class="section fade-in">
+        <h2>About Me</h2>
+        <p>
+            I am a high school student who enjoys trying new things. 
+            I love reading about some interesting topic, watching films, learning foreign languages, 
+            drawing, discovering new music and expanding my knowledge.
+        </p>
+    </section>
+
+    <section id="hobbies" class="section fade-in">
+        <h2>Hobbies</h2>
+        <div class="grid">
+            <div class="card">Watching Films</div>
+            <div class="card">Playing Games</div>
+            <div class="card">Exploring Music</div>
+        </div>
+    </section>
+
+    <section id="skills" class="section fade-in">
+        <h2>Skills</h2>
+        <div class="grid">
+            <div class="card">Basic Html, JavaScript, CSS</div>
+            <div class="card">Foreign Language; English & Little bit Japanese</div>
+            <div class="card">Editing</div>
+        </div>
+    </section>
+
+    <section id="projects" class="section fade-in">
+        <h2>Projects</h2>
+        <div class="grid">
+           <div class="card" onclick="toggleGallery()">
+                <h3>Design Edit</h3>
+                <p>Character edit like GFX, Icons edit, etc</p>
+            </div>
+        </div>
+       <div id="project-gallery" class="gallery">
+          <img src="images/design1.jpg" alt="Design 1">
+          <img src="images/design2.jpg" alt="Design 2">
+          <img src="images/design3.jpg" alt="Design 3">
+       </div>
+       
+        <div class="card">
+           <h3>Personal Web</h3>
+            <p>Simple portfolio website</p>
+            </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Seftya F.A</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
